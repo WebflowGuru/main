@@ -62,7 +62,7 @@ if ($(window).width() <= 767) {
     duration: 0,
   });
   //timeline 3
-  tl3.to(circlefive, { display: "block", duration: 1 });
+  tl3.to(circlefive, { display: "block", duration: 0 });
   tl3.to(circlefour, {
     clipPath: "circle(114% at 70% 75%)",
     webkitClipPath: "circle(114% at 70% 75%)",
@@ -75,7 +75,7 @@ if ($(window).width() <= 767) {
     duration: 0,
   });
   //timeline 4
-  tl4.to(circlesix, { display: "block", duration: 1 });
+  tl4.to(circlesix, { display: "block", duration: 0 });
   tl4.to(circlefive, {
     clipPath: "circle(114% at 70% 75%)",
     webkitClipPath: "circle(114% at 70% 75%)",
@@ -88,7 +88,7 @@ if ($(window).width() <= 767) {
     duration: 0,
   });
   //timeline 5th
-  tl5.to(circleseven, { display: "block", duration: 1 });
+  tl5.to(circleseven, { display: "block", duration: 0 });
   tl5.to(circlesix, {
     clipPath: "circle(114% at 70% 75%)",
     webkitClipPath: "circle(114% at 70% 75%)",
@@ -101,7 +101,7 @@ if ($(window).width() <= 767) {
     duration: 0,
   });
   //timeline 6th
-  tl6.to(circleeight, { display: "block", duration: 1 });
+  tl6.to(circleeight, { display: "block", duration: 0 });
   tl6.to(circleseven, {
     clipPath: "circle(114% at 70% 75%)",
     webkitClipPath: "circle(114% at 70% 75%)",
@@ -114,7 +114,7 @@ if ($(window).width() <= 767) {
     duration: 0,
   });
   //timeline 7th
-  tl7.to(circlenine, { display: "block", duration: 1 });
+  tl7.to(circlenine, { display: "block", duration: 0 });
   tl7.to(circleeight, {
     clipPath: "circle(114% at 70% 75%)",
     webkitClipPath: "circle(114% at 70% 75%)",
@@ -140,10 +140,12 @@ if ($(window).width() <= 767) {
   });
   //timeline 9th
   tl9.to(circleone, {
+    zIndex: 10,
+  });
+  tl9.to(circleone, {
     clipPath: "circle(114% at 70% 75%)",
     webkitClipPath: "circle(114% at 70% 75%)",
     duration: 1,
-    zIndex: 10,
     ease: Power1.easeInOut,
   });
   tl9.to(circlenine, {
@@ -187,7 +189,7 @@ else if ($(window).width() <= 991) {
     duration: 0,
   });
   //timeline 3
-  tl3.to(circlefive, { display: "block", duration: 1 });
+  tl3.to(circlefive, { display: "block", duration: 0 });
   tl3.to(circlefour, {
     clipPath: "circle(96% at 50% 72%)",
     webkitClipPath: "circle(96% at 50% 72%)",
@@ -200,7 +202,7 @@ else if ($(window).width() <= 991) {
     duration: 0,
   });
   //timeline 4
-  tl4.to(circlesix, { display: "block", duration: 1 });
+  tl4.to(circlesix, { display: "block", duration: 0 });
   tl4.to(circlefive, {
     clipPath: "circle(96% at 50% 72%)",
     webkitClipPath: "circle(96% at 50% 72%)",
@@ -213,7 +215,7 @@ else if ($(window).width() <= 991) {
     duration: 0,
   });
   //timeline 5th
-  tl5.to(circleseven, { display: "block", duration: 1 });
+  tl5.to(circleseven, { display: "block", duration: 0 });
   tl5.to(circlesix, {
     clipPath: "circle(96% at 50% 72%)",
     webkitClipPath: "circle(96% at 50% 72%)",
@@ -226,7 +228,7 @@ else if ($(window).width() <= 991) {
     duration: 0,
   });
   //timeline 6th
-  tl6.to(circleeight, { display: "block", duration: 1 });
+  tl6.to(circleeight, { display: "block", duration: 0 });
   tl6.to(circleseven, {
     clipPath: "circle(96% at 50% 72%)",
     webkitClipPath: "circle(96% at 50% 72%)",
@@ -239,7 +241,7 @@ else if ($(window).width() <= 991) {
     duration: 0,
   });
   //timeline 7th
-  tl7.to(circlenine, { display: "block", duration: 1 });
+  tl7.to(circlenine, { display: "block", duration: 0 });
   tl7.to(circleeight, {
     clipPath: "circle(96% at 50% 72%)",
     webkitClipPath: "circle(96% at 50% 72%)",
@@ -265,10 +267,12 @@ else if ($(window).width() <= 991) {
   });
   //timeline 9th
   tl9.to(circleone, {
+    zIndex: 10,
+  });
+  tl9.to(circleone, {
     clipPath: "circle(96% at 50% 72%)",
     webkitClipPath: "circle(96% at 50% 72%)",
     duration: 1,
-    zIndex: 10,
     ease: Power1.easeInOut,
   });
   tl9.to(circlenine, {
@@ -312,7 +316,7 @@ else if ($(window).width() <= 1024) {
     duration: 0,
   });
   //timeline 3
-  tl3.to(circlefive, { display: "block", duration: 1 });
+  tl3.to(circlefive, { display: "block", duration: 0 });
   tl3.to(circlefour, {
     clipPath: "circle(100% at 50% 67%)",
     webkitClipPath: "circle(100% at 50% 67%)",
@@ -325,7 +329,7 @@ else if ($(window).width() <= 1024) {
     duration: 0,
   });
   //timeline 4
-  tl4.to(circlesix, { display: "block", duration: 1 });
+  tl4.to(circlesix, { display: "block", duration: 0 });
   tl4.to(circlefive, {
     clipPath: "circle(100% at 50% 67%)",
     webkitClipPath: "circle(100% at 50% 67%)",
@@ -338,7 +342,7 @@ else if ($(window).width() <= 1024) {
     duration: 0,
   });
   //timeline 5th
-  tl5.to(circleseven, { display: "block", duration: 1 });
+  tl5.to(circleseven, { display: "block", duration: 0 });
   tl5.to(circlesix, {
     clipPath: "circle(100% at 50% 67%)",
     webkitClipPath: "circle(100% at 50% 67%)",
@@ -351,7 +355,7 @@ else if ($(window).width() <= 1024) {
     duration: 0,
   });
   //timeline 6th
-  tl6.to(circleeight, { display: "block", duration: 1 });
+  tl6.to(circleeight, { display: "block", duration: 0 });
   tl6.to(circleseven, {
     clipPath: "circle(100% at 50% 67%)",
     webkitClipPath: "circle(100% at 50% 67%)",
@@ -364,7 +368,7 @@ else if ($(window).width() <= 1024) {
     duration: 0,
   });
   //timeline 7th
-  tl7.to(circlenine, { display: "block", duration: 1 });
+  tl7.to(circlenine, { display: "block", duration: 0 });
   tl7.to(circleeight, {
     clipPath: "circle(100% at 50% 67%)",
     webkitClipPath: "circle(100% at 50% 67%)",
@@ -390,10 +394,12 @@ else if ($(window).width() <= 1024) {
   });
   //timeline 9th
   tl9.to(circleone, {
+    zIndex: 10,
+  });
+  tl9.to(circleone, {
     clipPath: "circle(100% at 50% 67%)",
     webkitClipPath: "circle(100% at 50% 67%)",
     duration: 1,
-    zIndex: 10,
     ease: Power1.easeInOut,
   });
   tl9.to(circlenine, {
@@ -438,7 +444,7 @@ else if ($(window).width() >= 1025) {
     duration: 0,
   });
   //timeline 3
-  tl3.to(circlefive, { display: "block", duration: 1 });
+  tl3.to(circlefive, { display: "block", duration: 0 });
   tl3.to(circlefour, {
     clipPath: "circle(96% at 50% 75%)",
     webkitClipPath: "circle(96% at 50% 75%)",
@@ -451,7 +457,7 @@ else if ($(window).width() >= 1025) {
     duration: 0,
   });
   //timeline 4
-  tl4.to(circlesix, { display: "block", duration: 1 });
+  tl4.to(circlesix, { display: "block", duration: 0 });
   tl4.to(circlefive, {
     clipPath: "circle(96% at 50% 75%)",
     webkitClipPath: "circle(96% at 50% 75%)",
@@ -464,7 +470,7 @@ else if ($(window).width() >= 1025) {
     duration: 0,
   });
   //timeline 5th
-  tl5.to(circleseven, { display: "block", duration: 1 });
+  tl5.to(circleseven, { display: "block", duration: 0 });
   tl5.to(circlesix, {
     clipPath: "circle(96% at 50% 75%)",
     webkitClipPath: "circle(96% at 50% 75%)",
@@ -477,7 +483,7 @@ else if ($(window).width() >= 1025) {
     duration: 0,
   });
   //timeline 6th
-  tl6.to(circleeight, { display: "block", duration: 1 });
+  tl6.to(circleeight, { display: "block", duration: 0 });
   tl6.to(circleseven, {
     clipPath: "circle(96% at 50% 75%)",
     webkitClipPath: "circle(96% at 50% 75%)",
@@ -490,7 +496,7 @@ else if ($(window).width() >= 1025) {
     duration: 0,
   });
   //timeline 7th
-  tl7.to(circlenine, { display: "block", duration: 1 });
+  tl7.to(circlenine, { display: "block", duration: 0 });
   tl7.to(circleeight, {
     clipPath: "circle(96% at 50% 75%)",
     webkitClipPath: "circle(96% at 50% 75%)",
@@ -516,9 +522,11 @@ else if ($(window).width() >= 1025) {
   });
   //timeline 9th
   tl9.to(circleone, {
+    zIndex: 10,
+  });
+  tl9.to(circleone, {
     clipPath: "circle(96% at 50% 75%)",
     webkitClipPath: "circle(96% at 50% 75%)",
-    zIndex: 10,
     duration: 1,
     ease: Power1.easeInOut,
   });
